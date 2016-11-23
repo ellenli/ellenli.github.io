@@ -1,0 +1,155 @@
+/* by ellen li, 2016 */
+/* wassup */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  position: relative;
+  overflow-x: hidden;
+  float: left;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: rgba(0, 0, 0, .6);
+  font-size: 20px;
+	background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition:all 200ms ease-in;
+  -moz-transition:all 200ms ease-in;
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+}
+
+/* type */
+
+h1 {
+  font-weight:900;
+  font-size:1.5em;
+  line-height: 1.5em;
+  margin: 0px 0px 25px 0px;
+  color: #666;
+}
+
+h2 {
+  font-weight:900;
+  font-size:0.8em;
+  letter-spacing: 1px;
+  line-height: 0.8em;
+  text-transform: uppercase;
+  margin: 25px 0px 25px 0px;
+  color: #666;
+  opacity: 0.5;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 175%;
+  margin: 25px 0px 25px 0px;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  color: #5CA2B9;
+}
+
+a:hover {
+  color: #333;
+}
+
+small {
+	font-size: 0.7em;
+}
+
+/* sections */
+
+section {
+	display: block;
+  position: relative;
+  width: auto;
+  top: 0;
+  left: 0;
+  height: auto;
+}
+
+.container {
+	display: block;
+	position: relative;
+	margin: auto;
+	padding: 10px 20px;
+	width: auto;
+	max-width: 710px;
+	height: auto;
+}
+
+ul .link-list {
+  line-height: 175%;
+  margin: 25px 0px 25px 50px;
+}
+
+/* writing list */
+
+.writing-list {
+  padding-left: 0;
+}
+
+.item {
+  list-style: none;
+  margin: 0px 0px 20px 0px;
+}
+
+.writing-list .title {
+  display: block;
+}
+
+.writing-list .meta {
+  display: block;
+  color: #999;
+}
+
+/* responsive-ish */
+
+@media screen and (min-width: 1281px) {
+  html, body {
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  html, body {
+  	top: 10%;
+  }
+}
+
+@media screen  and (max-width: 979px) /* tablet */ {
+  html, body {
+  	top: 7%;
+  }
+}
+
+@media screen and (max-width: 500px) /* mobile */ {
+	html, body {
+		font-size: 17px;
+    top: 2%;
+	}
+  section {
+    padding: 2px 20px;
+  }
+  .intro {
+  	top: 0%;
+  }
+  .container{
+    padding: 0px;
+  }
+}
