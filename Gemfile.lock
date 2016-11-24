@@ -138,15 +138,12 @@ GEM
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (1.5.3)
->>>>>>> e6f8395dad9331bd0d5e569b491a53f54fd440f5
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
-<<<<<<< HEAD
-=======
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
@@ -158,19 +155,15 @@ GEM
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     unicode-display_width (1.1.1)
->>>>>>> e6f8395dad9331bd0d5e569b491a53f54fd440f5
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
   jekyll (= 3.3.0)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
-=======
   github-pages
->>>>>>> e6f8395dad9331bd0d5e569b491a53f54fd440f5
 
 BUNDLED WITH
    1.11.2
