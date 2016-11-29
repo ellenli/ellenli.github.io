@@ -29,7 +29,7 @@ github_username:  ellenli
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 theme: minima
-encoding:     "utf-8"
+encoding: "utf-8"
 
 # include/exclude
 
