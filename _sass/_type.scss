@@ -14,7 +14,9 @@ h1,h2,h3,p,ul,footer {
 p,ul {
   margin-bottom: $spacing*2;
 }
-
+p:first-of-type {
+  margin-top:$spacing*1.5;
+}
 h2 {
     font-size: $font-size-s !important;
     font-weight: 900;
@@ -23,6 +25,7 @@ h2 {
     color: $color-main;
     opacity: 0.5;
 }
+
 .font-size-xl   { font-size: $font-size-xl; }
 .font-size-l    { font-size: $font-size-l; }
 .font-size-m    { font-size: $font-size-m; }

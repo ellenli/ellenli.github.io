@@ -3,4 +3,7 @@
     {% if page.subtitle %}
       <h2 style="margin-top:0.8em;">{{ page.subtitle }}</h2>
     {% endif %}
+    {% if page.date %}
+      <h2 style="margin-top:0.8em;">{{ page.date | date:'%B %-d, %Y' }}</h2>
+    {% endif %}
 </header>

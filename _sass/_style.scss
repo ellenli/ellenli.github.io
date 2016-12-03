@@ -15,7 +15,7 @@ html {
 .wrap {
     max-width: 44.5em;
     margin: 0 auto;
-    padding: $spacing*4 $spacing*2;
+    padding: $spacing*2 $spacing*2;
 
     @media screen and (max-width: $breakpoint-s) {
         padding: $spacing;
@@ -27,9 +27,11 @@ html {
     Header
 */
 
+
 header {
     text-align: left;
     padding: 0;
+    margin-top: $spacing*2;
 
     img {
         height: 150px;
@@ -77,67 +79,6 @@ header {
 }
 
 /*
-    Blocks
-*/
-
-.blocks {
-    display: table;
-    border-bottom: 2px solid $color-main;
-
-    h2,p,ul,a {
-        @extend .font-size-s;
-    }
-
-    h2 {
-        margin-top: 0;
-    }
-
-    ul {
-        list-style: none;
-        padding: 0;
-    }
-
-    .block {
-        display: table-cell;
-        width: 50%;
-
-        div {
-            border-top: 2px solid $color-main;
-        }
-
-        .inner {
-            padding: $spacing 0;
-        }
-
-        &.padding-left {
-            padding-left: 1em;
-        }
-
-        &.padding-right {
-            padding-right: 1em;
-        }
-
-        p:last-of-type {
-            margin-bottom: 0;
-        }
-
-        @media screen and (max-width: $breakpoint-s) {
-            display: block;
-            width: 100%;
-
-            &.padding-left,
-            &.padding-right {
-                padding-left: 0;
-                padding-right: 0;
-            }
-
-        }
-
-    }
-
-}
-
-/*
     Writing list
 */
 
@@ -178,6 +119,37 @@ header {
     }
 
 }
+/*
+    Nav
+*/
+
+.site-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.site-header h2 {
+    display: inline-block;
+    font-size: $font-size-s;
+    font-family: $font-family-sans;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+.nav {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.nav li {
+    display: inline-block;
+    padding-left: 1em;
+}
 
 /*
     Footer
@@ -207,6 +179,6 @@ footer:before {
   left: 0;
   top: 0;
   height: 1px;
-  width: 5%;
+  width: 4%;
   border-top: 1px solid $color-main;
 }
