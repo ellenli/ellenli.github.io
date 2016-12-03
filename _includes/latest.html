@@ -1,0 +1,10 @@
+<ul class="writing-list">
+    {% for post in site.categories.blog %}
+    <li class="writing-list item">
+      <a href="{{ post.url }}">
+        <span class="writing-list title">{{ post.title }}</span>
+        <span class="writing-list meta">{{ post.date | date:'%B %-d, %Y' }}</span>
+      </a>
+    </li>
+		{% endfor %}
+</ul>
