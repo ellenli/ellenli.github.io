@@ -1,0 +1,38 @@
+/*
+    TYPE
+*/
+
+h1,h2,h3 {
+    font-family: $font-family-sans;
+    font-weight: bold;
+}
+
+h1,h2,h3,p,ul {
+    line-height: 1.7em;
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-size: $font-size-s !important;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $color-main;
+    opacity: 0.5;
+}
+.font-size-xl   { font-size: $font-size-xl; }
+.font-size-l    { font-size: $font-size-l; }
+.font-size-m    { font-size: $font-size-m; }
+.font-size-s    { font-size: $font-size-s; }
+
+a {
+    color: $color-accent;
+    text-decoration: none;
+    border-bottom: 0px solid $color-accent;
+}
+
+.attention {
+    text-align: center;
+    color: $color-accent;
+    font-family: $font-family-serif;
+}

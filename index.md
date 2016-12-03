@@ -1,6 +1,7 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: default
+title: Ellen Li
+subtitle: Product Designer
 ---
+
+I operate at the intersection of product design, technology, and entrepreneurship. I work at [Shopify](http://shopify.com). I also run my own [poster store](http://enty.co). Outside of work, I make time for ultimate frisbee, writing, and the craft of improv.
