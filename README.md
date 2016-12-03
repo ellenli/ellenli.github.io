@@ -6,6 +6,6 @@ As of December 2016, the website is on [Github Pages](https://pages.github.com/)
 
 Feel free to fork this for your tinkering/learning purposes.
 
-Got a questions? Reach me by [email](mailto:me@ellen.li) or [Twitter](http://twitter.com/ellenxli).
+Got a question? Reach me by [email](mailto:me@ellen.li) or [Twitter](http://twitter.com/ellenxli).
 
 :wave:
