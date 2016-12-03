@@ -7,9 +7,12 @@ h1,h2,h3 {
     font-weight: bold;
 }
 
-h1,h2,h3,p,ul {
+h1,h2,h3,p,ul,footer {
     line-height: 1.7em;
-    margin-bottom: 2em;
+    margin: $spacing 0;
+}
+p,ul {
+  margin-bottom: $spacing*2;
 }
 
 h2 {

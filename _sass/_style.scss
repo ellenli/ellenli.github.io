@@ -15,7 +15,7 @@ html {
 .wrap {
     max-width: 44.5em;
     margin: 0 auto;
-    padding: $spacing * 2;
+    padding: $spacing*4 $spacing*2;
 
     @media screen and (max-width: $breakpoint-s) {
         padding: $spacing;
@@ -138,6 +138,28 @@ header {
 }
 
 /*
+    Writing list
+*/
+
+.writing-list {
+  padding-left: 0;
+}
+
+.item {
+  list-style: none;
+  margin: 0px 0px $spacing 0px;
+}
+
+.writing-list .title {
+  display: block;
+}
+
+.writing-list .meta {
+  display: block;
+  color: #999;
+}
+
+/*
     Footnotes
 */
 
@@ -162,9 +184,12 @@ header {
 */
 
 footer {
-    padding: 2em 0 0 0;
-    width: 50%;
-    border-top: 2px solid rgba(0, 0, 0, .3);
+    margin: $spacing*3 0;
+    padding: $spacing 0 0 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index : 1;
 
     @media screen and (max-width: $breakpoint-s) {
         width: 100%;
@@ -175,4 +200,13 @@ footer {
         margin: 0;
     }
 
+}
+footer:before {
+  content : "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1px;
+  width: 5%;
+  border-top: 1px solid $color-main;
 }
