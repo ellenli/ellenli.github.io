@@ -14,8 +14,18 @@ h1,h2,h3,p,ul,footer {
 p,ul {
   margin-bottom: $spacing*2;
 }
-p:first-of-type {
+main p:first-of-type {
   margin-top:$spacing*1.5;
+}
+code {
+  color: $color-main;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  padding: 0;
+  padding: 0.2em 0.3em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
 }
 h2 {
     font-size: $font-size-s !important;
@@ -25,7 +35,9 @@ h2 {
     color: $color-main;
     opacity: 0.5;
 }
-
+figcaption {
+  font-size: $font-size-s;
+}
 .font-size-xl   { font-size: $font-size-xl; }
 .font-size-l    { font-size: $font-size-l; }
 .font-size-m    { font-size: $font-size-m; }
