@@ -15,3 +15,13 @@ Outside of work, I like playing ultimate frisbee, working on my side projects an
 Lately, I've been [experimenting with web integrations](https://github.com/ellenli/ellenli.github.io). I'm currently building one with [Bear](http://www.bear-writer.com). Stay tuned!
 
 <img src="/assets/img/equalizer.gif"> I'm listening to <span id="nowPlaying"></span>.
+
+# Posts
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
