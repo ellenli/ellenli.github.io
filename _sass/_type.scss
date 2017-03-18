@@ -4,21 +4,27 @@
 
 h1,h2,h3 {
     font-family: $font-family-sans;
-    font-weight: bold;
+    font-weight: 700;
 }
 
-h1,h2,h3,p,ul {
-    line-height: 1.7em;
-    margin-bottom: 2em;
+header,h1,h2,h3,p,ul {
+    margin-bottom: $spacing;
+}
+header h1 {
+  font-size: $font-size-m !important;
+}
+subtitle {
+  margin: 0 !important;
+  opacity: 0.7;
 }
 
 h2 {
     font-size: $font-size-s !important;
-    font-weight: 900;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0px;
+    // text-transform: uppercase;
     color: $color-main;
-    opacity: 0.5;
+    opacity: 1;
 }
 .font-size-xl   { font-size: $font-size-xl; }
 .font-size-l    { font-size: $font-size-l; }
@@ -28,9 +34,10 @@ h2 {
 a {
     color: $color-accent;
     text-decoration: none;
-    border-bottom: 0px solid $color-accent;
 }
-
+#nowPlaying, #lastRun {
+  text-transform: none;
+}
 .attention {
     text-align: center;
     color: $color-accent;
