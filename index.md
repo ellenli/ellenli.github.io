@@ -16,7 +16,7 @@ Lately, I've been [experimenting with web integrations](https://github.com/ellen
 
 <img src="/assets/img/equalizer.gif"> I'm listening to <span id="nowPlaying"></span>.
 
-# Posts
+<h2 id="recentPosts">Recent posts</h2>
 
 <ul>
   {% for post in site.posts %}

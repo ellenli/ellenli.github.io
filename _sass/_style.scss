@@ -12,8 +12,20 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 
+img {
+  max-width: 100%;
+}
+
+img + em {
+  display: block;
+  width: 100%;
+  font-style: normal;
+  text-align: center;
+  opacity: 0.6;
+}
+
 .wrap {
-    max-width: 30em;
+    max-width: 35em;
     margin: 0 auto;
     padding: $spacing * 2;
 
@@ -163,8 +175,8 @@ header {
 
 footer {
     padding: 2em 0 0 0;
-    width: 50%;
-    border-top: 2px solid rgba(0, 0, 0, .3);
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, .2);
 
     @media screen and (max-width: $breakpoint-s) {
         width: 100%;
