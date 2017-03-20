@@ -11,7 +11,7 @@ In <a href="{{ "Publishing from Bear to Jekyll (part 1)" | replace: " ", "_" | r
 As far as I know, here are my implementation tasks:
 
 1. Find notes from Bear (stored in iCloud) tagged `#public`
-2. Copy those posts to my website's repo and convert them to markdown files
+2. Copy those posts to my website's repo and convert them to `.md` files
 3. Clean up the formatting
 4. Commit/push to publish them
 5. Automatic publishing for all new `#public` notes
@@ -24,13 +24,13 @@ Good news: pybear handles implementation tasks 1 and 2! Behold: files!
 ![](assets/posts/9217CC4C-9EF4-4BF0-A67C-74936AD6CE45-1329-00004DA099027B8E/FE5411FD-2C93-47AE-B122-1E70CC101164.png)
 *Woohoo!*
 
-But Jekyll wasn't publishing them because the file names don't follow the format I'm using: `YYYY-MM-DD-post-title.md`. So I tweaked file name formatting and a slew of other formatting things (headings, images, links and tags) in [my fork of pybear](https://github.com/ellenli/pybear).
+But Jekyll wasn't touching them because the file names don't follow the format I'm using: `YYYY-MM-DD-post-title.md`. So I tweaked file name formatting and a slew of other formatting things (headings, images, links and tags) in [my fork of pybear](https://github.com/ellenli/pybear).
 
-The tweaking was non-trivial. It's tricky using regex to handle formatting. Check out my [bear_to_jekyll.py](https://github.com/ellenli/pybear/blob/master/bear_to_jekyll.py) if you're curious. So many special characters...
+The tweaking was non-trivial. It's tricky using regex to handle formatting. Pattern matching gets really specific and it's especially annoying with special characters thrown in the mix.
 
 Anyway, I'm happy to say that after a lot of trial and error, implementation tasks 3 and 4 are done! ✌️
 
-A heads up for anyone interested in using pybear: I adjusted it to fit *my* Jekyll workflow. Out of the box, it probably won't fit yours so get ready for some fun regex.
+A heads up for anyone interested in using pybear: I adjusted it to fit *my* Jekyll workflow. Out of the box, it probably won't fit yours so get ready for some fun regex!
 
 Next up is building automation.
 
@@ -44,4 +44,4 @@ These leads are strong. Still, I feel clueless. Iunno how I'm gonna go about tes
 
 The fun continues in <a href="{{ "Publishing from Bear to Jekyll (part 3)" | replace: " ", "_" | remove: "(" | remove: ")" | remove: "~" | remove: "!" | remove: "@" | remove: "#" | remove: "$" | remove: "&" | remove: ":" | remove: ";" | remove: "?" | remove: "," | remove: "." | downcase }}">Publishing from Bear to Jekyll (part 3)</a>! ... which might be a broken link because at my time of writing this, part 3 is an empty Bear note. Heh.
 
-I'm working on it! Part 3 will be published ~~automagically~~ automatically once automation works. Stay tuned! ✨
+I'm working on it! Part 3 will be published ~~automagically~~ automatically once automation works so stay tuned! 😀

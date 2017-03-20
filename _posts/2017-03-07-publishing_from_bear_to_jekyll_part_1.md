@@ -12,21 +12,21 @@ What if I could also use Bear to publish these notes?
 
 For 2 reasons, I want the publishing process to be as passive and invisible as possible:
 
-1. I have content (in Bear) to share
-2. I don't want to deal with .md files, git or Jekyll to publish my notes
+1. I have content (written in my Bear app) to share
+2. I don't want to deal with git or Jekyll to publish my notes
 3. Lower barrier to publishing → more published notes!
 
 Ideally, when I want to publish a note, all I'd have to do from the Bear app is add `#public` to the note to see it as a published post on my website right after. That'd be really cool.
 
 At my time of writing this, I don't actually know how I'm gonna make this workflow dream come true. I did some googling though. 😅
 
-Here's what I know:
+Behold, here's the little I know:
 
 - the Bear team said that [publishing isn't on their product roadmap](http://help.shinyfrog.net/discussions/bear/1500-couple-of-feature-requests-medium-and-zapier)
-- [pybear](https://github.com/redspider/pybear) is a python library that accesses notes from Bear's database
-- pybear has a `bear_to_jekyll` command which could be very useful
+- [pybear](https://github.com/redspider/pybear) is a python library that accesses notes from Bear
+- pybear has a `bear_to_jekyll` function which could be very useful
 - privacy and security will make automation hard
 
-That's all. Here goes nothing.
+That's all.
 
-Continued in <a href="{{ "Publishing from Bear to Jekyll (part 2)" | replace: " ", "_" | remove: "(" | remove: ")" | remove: "~" | remove: "!" | remove: "@" | remove: "#" | remove: "$" | remove: "&" | remove: ":" | remove: ";" | remove: "?" | remove: "," | remove: "." | downcase }}">Publishing from Bear to Jekyll (part 2)</a>.
+The building begins in <a href="{{ "Publishing from Bear to Jekyll (part 2)" | replace: " ", "_" | remove: "(" | remove: ")" | remove: "~" | remove: "!" | remove: "@" | remove: "#" | remove: "$" | remove: "&" | remove: ":" | remove: ";" | remove: "?" | remove: "," | remove: "." | downcase }}">Publishing from Bear to Jekyll (part 2)</a>.
