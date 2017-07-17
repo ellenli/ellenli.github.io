@@ -1,0 +1,34 @@
+---
+title: Ellen Li, Product Designer
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    is_post: true
+email: me@ellen.li
+description: Ellen operates at the intersection of product design, technology, and
+  entrepreneurship. She works at Shopify.
+baseurl: ''
+url: http://ellen.li
+permalink: "/:title"
+twitter_username: ellenxli
+github_username: ellenli
+sass:
+  style: compressed
+markdown: kramdown
+theme: minima
+gems:
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock
+encoding: utf-8
