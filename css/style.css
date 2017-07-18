@@ -8,17 +8,6 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
-@font-face {
-	font-family: 'Circular Std';
-	src: url('../fonts/CircularStd-Black.eot');
-	src: url('../fonts/CircularStd-Black.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/CircularStd-Black.woff2') format('woff2'),
-		url('../fonts/CircularStd-Black.woff') format('woff'),
-		url('../fonts/CircularStd-Black.ttf') format('truetype'),
-		url('../fonts/CircularStd-Black.svg#CircularStd-Black') format('svg');
-	font-weight: 900;
-	font-style: normal;
-}
 
 /* colour and type */
 
@@ -28,7 +17,7 @@ html,body {
   --background-color-2: #EAEAEA;
   --link-color: #05054F;
   --link-hover-color: #05054F;
-  font-family: 'Inconsolata', sans-serif;
+  font-family: 'Inconsolata', monospace;
   letter-spacing: -0.2px;
   font-size: 1em;
   line-height: 1.5em;
@@ -47,7 +36,7 @@ background-image: linear-gradient(to top, #ffecd2 0%, #EBC5AF 100%);
   -o-transition: all 200ms ease-in;
 }
 h1,h2,h3,h4 {
-  font-family: 'Circular Std', sans-serif;
+  font-family: 'Circular Std', 'Lato', 'Brandon Text', 'Helvetica', sans-serif;
   letter-spacing: -0.02em;
   margin: 0;
   cursor: default;
