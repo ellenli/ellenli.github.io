@@ -11,8 +11,8 @@
 
 html,body {
   --text-color: #05054F;
-  --background-color: #EBC5AF;
-  --background-color-2: #EAEAEA;
+  --background-color: #fffcdc;
+  --background-color-2: #ffffff;
   --link-color: #05054F;
   --link-hover-color: #05054F;
   font-family: 'Inconsolata', monospace;
@@ -22,7 +22,7 @@ html,body {
   color: #05054F;
   color: var(--text-color);
   background-color: transparent;
-background-image: linear-gradient(to top, #ffecd2 0%, #EBC5AF 100%);
+  background-image: linear-gradient(to bottom, #ffecd2 0%, #fffcdc 100%);
   /*background-color: var(--background-color);*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
