@@ -7,8 +7,6 @@
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Inconsolata');
-
 /* colour and type */
 
 html,body {
@@ -36,9 +34,12 @@ background-image: linear-gradient(to top, #ffecd2 0%, #EBC5AF 100%);
   -o-transition: all 200ms ease-in;
 }
 h1,h2,h3,h4 {
-  font-family: 'Circular Std', 'Lato', 'Brandon Text', 'Helvetica', sans-serif;
+  display: block;
+  text-align: center;
+  font-family: 'Circular Std', 'Roboto', 'Helvetica', sans-serif;
   letter-spacing: -0.02em;
   margin: 0;
+  padding: 0;
   cursor: default;
   color: #2F4787;
   line-height: 1.5em;
