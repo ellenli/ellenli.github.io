@@ -142,6 +142,15 @@ section:last-of-type {
   margin: 0;
   justify-self: start;
 }
+#equalizer {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: url(equalizer.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0px solid #000;
+}
 
 /* projects section */
 
