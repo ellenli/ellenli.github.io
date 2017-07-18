@@ -8,6 +8,17 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@font-face {
+	font-family: 'Circular Std';
+	src: url('../fonts/CircularStd-Black.eot');
+	src: url('../fonts/CircularStd-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/CircularStd-Black.woff2') format('woff2'),
+		url('../fonts/CircularStd-Black.woff') format('woff'),
+		url('../fonts/CircularStd-Black.ttf') format('truetype'),
+		url('../fonts/CircularStd-Black.svg#CircularStd-Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
 
 /* colour and type */
 
