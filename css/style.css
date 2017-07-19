@@ -64,15 +64,15 @@ p {
   opacity: 0.8;
 }
 a,a:active {
+  text-decoration: underline;
+  -webkit-text-decoration-skip: ink;
   text-decoration-skip: ink;
-  /*border-bottom: 1px solid var(--link-color);*/
   opacity: 1;
   color: var(--link-color);
   outline: none;
 }
 a:hover,a:focus {
   text-decoration: none;
-  /*border-bottom: 0px solid var(--link-color);*/
   color: var(--link-hover-color);
   outline: none;
   cursor: pointer;
