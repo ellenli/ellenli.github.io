@@ -86,6 +86,7 @@ main {
   display: block;
   margin: auto;
   width: 50%;
+  max-width: 940px
 }
 section {
   /*background-color: #fff;*/
