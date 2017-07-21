@@ -212,6 +212,7 @@ section:last-of-type {
   background-size: contain;
   background-blend-mode: multiply;
   mix-blend-mode: multiply;
+  filter: grayscale(100%);
   opacity: 0.6;
   grid-column: 2 / span 2;
   grid-row: 1 / span 2;
