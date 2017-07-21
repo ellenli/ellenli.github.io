@@ -1,4 +1,4 @@
-/* ellen li 2017 */
+/* ellen li july 2017 */
 
 *,
 *::after,
@@ -119,7 +119,7 @@ section:last-of-type {
 
 #intro .portrait {
   display: block;
-  background-image: url(../img/intro-headshot.png);
+  background-image: url(../img/ellenli-intro-headshot.png);
   background-repeat: no-repeat;
   background-size: contain;
   opacity: 1;
@@ -147,6 +147,9 @@ section:last-of-type {
   background-repeat: no-repeat;
   background-position: center;
   border: 0px solid #000;
+  background-blend-mode: multiply;
+  mix-blend-mode: multiply;
+  filter: grayscale(100%);
 }
 
 /* projects section */
@@ -207,13 +210,13 @@ section:last-of-type {
 .headshot {
   position: relative;
   display: block;
-  background-image: url(../img/appearances-headshot.png);
+  background-image: url(../img/ellenli-speaker-headshot.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-blend-mode: multiply;
   mix-blend-mode: multiply;
   filter: grayscale(100%);
-  opacity: 0.6;
+  opacity: 0.5;
   grid-column: 2 / span 2;
   grid-row: 1 / span 2;
   z-index: 0;
