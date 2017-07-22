@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: 'Circular Std';
-  src: url('../fonts/CircularStd-Black.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/CircularStd-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/CircularStd-Black.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/CircularStd-Black.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/CircularStd-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/CircularStd-Black.svg#svgCircularStd') format('svg'); /* Legacy iOS */
+  src: url('../fonts/circularstd-medium-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/circularstd-medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/circularstd-medium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/circularstd-medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/circularstd-medium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/circularstd-medium-webfont.svg#svgCircularStd') format('svg'); /* Legacy iOS */
 }
 
 *,
