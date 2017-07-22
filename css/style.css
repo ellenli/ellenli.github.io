@@ -28,10 +28,9 @@ html,body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transition:all 200ms ease-in;
-  -moz-transition:all 200ms ease-in;
-  -webkit-transition: all 200ms ease-in;
-  -o-transition: all 200ms ease-in;
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  transition: all .25s;
 }
 h1,h2,h3,h4 {
   display: block;
