@@ -2,12 +2,10 @@
 
 @font-face {
   font-family: 'Circular Std';
-  src: url('../fonts/circularstd-book-webfont.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/circularstd-book-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/circularstd-book-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/circularstd-book-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/circularstd-book-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/circularstd-book-webfont.svg#svgCircularStd') format('svg'); /* Legacy iOS */
+  src: url('../fonts/circularstd-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/circularstd-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/circularstd-regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/circularstd-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
 *,
