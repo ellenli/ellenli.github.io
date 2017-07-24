@@ -44,6 +44,16 @@ html,body {
   -moz-transition: all .25s;
   transition: all .25s;
 }
+::selection { /* WebKit/Blink Browsers */
+  background: #2F4787;
+  color: #fff;
+  opacity: 1;
+}
+::-moz-selection {
+  background: #2F4787; /* Gecko Browsers */
+  color: #fff;
+  opacity: 1;
+}
 h1,h2,h3,h4 {
   display: block;
   text-align: center;
