@@ -23,8 +23,8 @@
 
 html,body {
   --text-color: #05054F;
-  --background-color: #fffcdc;
-  --background-color-2: #ffffff;
+  --background-color: #ffecd2;
+  --background-color-2: #fffcdc;
   --link-color: #05054F;
   --link-hover-color: #05054F;
   font-family: 'Inconsolata', monospace;
@@ -34,8 +34,7 @@ html,body {
   color: #05054F;
   color: var(--text-color);
   background-color: transparent;
-  background-image: linear-gradient(to bottom, #ffecd2 0%, #fffcdc 100%);
-  /*background-color: var(--background-color);*/
+  background-image: linear-gradient(to bottom, var(--background-color) 0%, var(--background-color-2) 90%);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -56,7 +55,6 @@ html,body {
 }
 h1,h2,h3,h4 {
   display: block;
-  text-align: center;
   font-family: 'Circular Std', 'Roboto', 'Helvetica', sans-serif;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -163,11 +161,11 @@ section:last-of-type {
 }
 #equalizer {
   display: inline-block;
-  width: 1em;
+  width: 1.3rem;
   height: 1em;
   background-image: url(../img/equalizer.gif);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   border: 0px solid #000;
   background-blend-mode: multiply;
   mix-blend-mode: multiply;
@@ -210,6 +208,30 @@ section:last-of-type {
   break-inside: avoid-column;
   -webkit-column-break-inside: avoid;
   margin: 0em 0 2em 0;
+}
+
+/* posts */
+
+.post {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 50%;
+  max-width: 650px
+}
+#header h1, h2 {
+  text-align: center;
+}
+#header h1{
+  font-size: 4.5em;
+}
+article {
+  font-family: 'Circular Std', 'Roboto', 'Helvetica', sans-serif;
+  font-weight: 400;
+}
+article h2 {
+  font-size: 3em;
+  text-align: left;
 }
 
 /* elsewhere section */
@@ -302,7 +324,7 @@ section:last-of-type {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--background-color-2);
+  fill: #ffffff;
   opacity: 0.9;
   top: -29% !important;
   width: 95%;
@@ -427,7 +449,8 @@ section:last-of-type {
   h1,h2,h3,h4 {
     font-weight: 900;
   }
-  h1,h2 {
+
+  h1,h2,h3 {
     text-align: left!important;
   }
   h1 {
