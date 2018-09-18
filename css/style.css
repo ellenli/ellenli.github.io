@@ -23,8 +23,8 @@
 
 html,body {
   --text-color: #05054F;
-  --background-color: #ffecd2;
-  --background-color-2: #fffcdc;
+  --background-color: #fff;
+  --background-color-2: #FFFEEF;
   --link-color: #05054F;
   --link-hover-color: #05054F;
   font-family: 'Inconsolata', monospace;
@@ -127,7 +127,7 @@ section:last-of-type {
   justify-content: center;
   align-content: center;
   grid-template-columns: 20% 20% 10% 45% 5%;
-  grid-template-rows: 70px 155px;
+  grid-template-rows: 35px 145px;
   grid-template-areas:
               "... ... ... tagline tagline"
               "... ... name name name"
@@ -139,14 +139,14 @@ section:last-of-type {
 
 #intro .portrait {
   display: block;
-  background-image: url(../img/ellenli-intro-headshot.png);
+  background-image: url(../img/ellenli-headshot.png);
   background-repeat: no-repeat;
   background-size: contain;
   opacity: 1;
   grid-column: 1 / 3;
   grid-row: 2 / 3;
-  width: 375px;
-  height: 375px;
+  width: 380px;
+  height: 380px;
 }
 
 #intro .tagline {
@@ -254,7 +254,7 @@ article h2 {
 .headshot {
   position: relative;
   display: block;
-  background-image: url(../img/ellenli-speaker-headshot.png);
+  background-image: url(../img/ellenli-appearances.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-blend-mode: multiply;
@@ -324,7 +324,7 @@ article h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #ffffff;
+  fill: #F5E8E2;
   opacity: 0.9;
   top: -29% !important;
   width: 95%;
