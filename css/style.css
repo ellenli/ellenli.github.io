@@ -236,11 +236,11 @@ article h2 {
 
 /* elsewhere section */
 
-#elsewhere h2 {
+#appearances h2 {
   position: relative;
   z-index: 10;
 }
-.appearances {
+.appearances-list {
   /* grid container */
   position: relative;
   display: grid;
@@ -267,7 +267,7 @@ article h2 {
   margin: 2em 0;
 }
 
-.appearances ul {
+.appearances-list ul {
   grid-area: list;
   margin: 0;
   padding: 0;
@@ -275,7 +275,7 @@ article h2 {
   list-style-type: disc;
   z-index: 10;
 }
-.appearances ul > a > li, .appearances ul > li {
+.appearances-list ul > a > li, .appearances-list ul > li {
   list-style: none;
   border: 1px solid var(--text-color);
   position: relative;
@@ -484,22 +484,22 @@ article h2 {
   .projects ul > a > li, .projects ul > li {
     margin: 0em 0 2em 0;
   }
-  .appearances {
+  .appearances-list {
     /* grid container */
     grid-template-areas:
                 "list list list"
   }
-  .appearances .headshot {
+  .appearances-list .headshot {
     display: none;
   }
-  .appearances ul {
+  .appearances-list ul {
     grid-area: list;
     margin: 0;
     padding: 0;
     display: block;
     list-style-type: disc;
   }
-  .appearances ul > a > li, .appearances ul > li {
+  .appearances-list ul > a > li, .appearances-list ul > li {
     list-style: none;
     border: 1px solid $;
     position: relative;
