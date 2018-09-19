@@ -127,7 +127,7 @@ section:last-of-type {
   justify-content: center;
   align-content: center;
   grid-template-columns: 20% 20% 10% 45% 5%;
-  grid-template-rows: 35px 145px;
+  grid-template-rows: 36px 145px;
   grid-template-areas:
               "... ... ... tagline tagline"
               "... ... name name name"
@@ -260,7 +260,7 @@ article h2 {
   background-blend-mode: multiply;
   mix-blend-mode: multiply;
   filter: grayscale(100%);
-  opacity: 0.5;
+  opacity: 0.6;
   grid-column: 2 / span 2;
   grid-row: 1 / span 2;
   z-index: 0;
@@ -324,7 +324,7 @@ article h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #F5E8E2;
+  fill: #F8F1EF;
   opacity: 0.9;
   top: -29% !important;
   width: 95%;
