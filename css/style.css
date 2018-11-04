@@ -53,6 +53,9 @@ html,body {
   color: #fff;
   opacity: 1;
 }
+.fa {
+  color: #2F4787;
+}
 h1,h2,h3,h4 {
   display: block;
   font-family: 'Circular Std', 'Roboto', 'Helvetica', sans-serif;
@@ -344,7 +347,7 @@ article h2 {
 
 /* responsive-ish */
 
-@media screen and (min-width: 1840px) {
+@media screen and (min-width: 2040px) {
   /* widest */
   .morph-outline-lower {
     display: none;
