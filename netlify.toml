@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/up-next/*"
+  to = "https://ellen.li/up-next/*"
+  status = 200
