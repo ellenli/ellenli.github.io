@@ -453,6 +453,9 @@ article h2 {
   #footer {
     margin: 1em 0 2em 0;
   }
+  #footer p {
+    -webkit-margin-after: 1em;
+  }
   h1,h2,h3,h4 {
     font-weight: 900;
   }
