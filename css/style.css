@@ -213,6 +213,7 @@ section:last-of-type {
   margin: 0em 0 2em 0;
 }
 
+
 /* posts */
 
 .post {
@@ -284,6 +285,9 @@ article h2 {
   position: relative;
   padding: 10px 14px;
   margin: 0em 0 2em 0;
+}
+.appearances-list a {
+  text-decoration: none;
 }
 
 /* footer */
