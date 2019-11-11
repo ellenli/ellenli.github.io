@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: 'Circular Std';
-  src: url('../includes/assets/fonts/CircularStd-Bold.eot');
-  src: url('../includes/assets/fonts/CircularStd-Bold.woff2') format('woff2'),
-       url('../includes/assets/fonts/CircularStd-Bold.woff') format('woff'),
-       url('../includes/assets/fonts/CircularStd-Bold.ttf') format('truetype'),
-       url('../includes/assets/fonts/CircularStd-Bold.svg#CircularStd-Bold') format('svg'),
-       url('../includes/assets/fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype');
+  src: url('../../../includes/assets/fonts/CircularStd-Bold.eot');
+  src: url('../../../includes/assets/fonts/CircularStd-Bold.woff2') format('woff2'),
+       url('../../../includes/assets/fonts/CircularStd-Bold.woff') format('woff'),
+       url('../../../includes/assets/fonts/CircularStd-Bold.ttf') format('truetype'),
+       url('../../../includes/assets/fonts/CircularStd-Bold.svg#CircularStd-Bold') format('svg'),
+       url('../../../includes/assets/fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype');
   font-weight: 900;
   font-style: normal;
 }
@@ -142,7 +142,7 @@ section:last-of-type {
 
 #intro .portrait {
   display: block;
-  background-image: url(../includes/assets/img/ellenli-headshot.png);
+  background-image: url('../../../includes/assets/img/ellenli-headshot.png');
   background-repeat: no-repeat;
   background-size: contain;
   opacity: 1;
@@ -166,7 +166,7 @@ section:last-of-type {
   display: inline-block;
   width: 1.3rem;
   height: 1em;
-  background-image: url(../includes/assets/img/equalizer.gif);
+  background-image: url('../../../includes/assets/img/equalizer.gif');
   background-repeat: no-repeat;
   background-position: left;
   border: 0px solid #000;
@@ -258,7 +258,7 @@ article h2 {
 .headshot {
   position: relative;
   display: block;
-  background-image: url(../includes/assets/img/ellenli-appearances.png);
+  background-image: url('../../../includes/assets/img/ellenli-appearances.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-blend-mode: multiply;
