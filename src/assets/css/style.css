@@ -56,9 +56,9 @@ html,body {
 .fa {
   color: #2F4787;
 }
-h1,h2,h3,h4 {
+h1,h2,h3,h4, header p a {
   display: block;
-  font-family: 'Circular Std', 'Roboto', 'Helvetica', sans-serif;
+  font-family: 'Averta Std','Circular Std', 'Roboto', 'Helvetica', sans-serif;
   font-weight: 700;
   letter-spacing: -0.02em;
   margin: 0;
@@ -102,16 +102,14 @@ a:hover,a:focus {
 }
 
 /* page layout */
-
 main {
   position: relative;
   display: block;
   margin: auto;
   width: 50%;
-  max-width: 940px
+  /* max-width: 940px */
 }
-section {
-  /*background-color: #fff;*/
+section, article {
   margin: 5em 0 0em 0;
 }
 section:last-of-type {
@@ -216,22 +214,45 @@ section:last-of-type {
 
 /* posts */
 
-.post {
-  position: relative;
-  display: block;
-  margin: auto;
-  width: 50%;
-  max-width: 650px
-}
 #header h1, h2 {
   text-align: center;
 }
-#header h1{
+#header h1 {
   font-size: 4.5em;
 }
+header {
+  position: relative;
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+  margin: 2em 0 2em 0;
+  z-index: 10;
+}
+header div p {
+  margin: 0;
+}
+header p a {
+  color: var(--text-color);
+  display: inline-block;
+  opacity: 1;
+}
+header a {
+  text-decoration: none;
+}
 article {
-  font-family: 'Circular Std', 'Roboto', 'Helvetica', sans-serif;
-  font-weight: 400;
+  position: relative;
+  display: block;
+  z-index: 10;
+}
+article h1 {
+  width: 100%;
+  font-size: 3em;
+}
+article p {
+  font-family: 'Averta Std', 'Helvetica', sans-serif;
+  font-size: 1em;
+  font-weight: normal;
 }
 article h2 {
   font-size: 3em;
@@ -269,6 +290,19 @@ article h2 {
   grid-row: 1 / span 2;
   z-index: 0;
   margin: 2em 0;
+}
+.header-head {
+  position: relative;
+  display: inline-block;
+  background-image: url('../../../src/assets/img/ellenli-small.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  opacity: 1;
+  width: 3.5em;
+  height: 3.5em;
+  z-index: 0;
+  margin: 0em 1em 0 0;
 }
 
 .appearances-list ul {
@@ -327,7 +361,7 @@ article h2 {
   flex: none;
 }
 .morph-fill {
-  position: fixed;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -335,6 +369,18 @@ article h2 {
   opacity: 0.7;
   top: -29% !important;
   width: 95%;
+  left: 0;
+  z-index: 5;
+}
+.morph-post {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #F3E8E5;
+  opacity: 0.4;
+  top: -60% !important;
+  width: 130%;
   left: 0;
   z-index: 5;
 }
@@ -363,8 +409,11 @@ article h2 {
   #intro {
     grid-template-rows: 40px 145px;
   }
-  section {
+  section, article {
     margin: 8em 0 0em 0;
+  }
+  article h1 {
+    width: 70%;
   }
 }
 
@@ -373,13 +422,16 @@ article h2 {
   main {
     width: 50%;
   }
+  article h1 {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 1500px) {
   main {
     width: 60%;
   }
-  section {
+  section, article {
     margin: 4em 0 0em 0;
   }
   #intro .portrait {
@@ -388,6 +440,9 @@ article h2 {
   }
   #intro {
     grid-template-rows: 50px 145px;
+  }
+  article h1 {
+    width: 70%;
   }
 }
 
@@ -399,9 +454,12 @@ article h2 {
     width: 320px;
     height: 320px;
   }
+  article h1 {
+    width: 100%;
+  }
 }
 @media screen  and (max-width: 1000px) {
-  section {
+  section, article {
     margin: 3em 0 0 0;
   }
   main {
@@ -425,7 +483,7 @@ article h2 {
   h1 {
     font-size: 5em;
   }
-  h2 {
+  article h1, h2 {
     font-size: 3em;
     margin-bottom: 0.5em;
     text-align: center;
@@ -447,7 +505,7 @@ article h2 {
   }*/
 }
 @media screen and (max-width: 580px) /* mobile */ {
-  section{
+  section, article {
     margin: 1em 0 0 0;
   }
   #footer {
@@ -467,7 +525,10 @@ article h2 {
     font-size: 4em;
     margin-left: -4px;
   }
-  h2 {
+  article h1 {
+    font-size: 2.2em;
+  }
+  article h2, h2 {
     font-size: 2em;
     margin-left: -2px;
   }
