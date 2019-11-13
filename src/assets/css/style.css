@@ -69,6 +69,9 @@ h1,h2,h3,h4, header p a {
   z-index: 10;
 }
 h1 {
+  font-size: 5em;
+}
+.name { /* Ellen Li on index.html */
   font-size: 7em;
 }
 h2 {
@@ -226,7 +229,7 @@ header {
   -webkit-align-items: center; /* Safari 7.0+ */
   display: flex;
   align-items: center;
-  margin: 2em 0 2em 0;
+  margin: 2em 0;
   z-index: 10;
 }
 header div p {
@@ -378,7 +381,7 @@ article h2 {
   align-items: center;
   justify-content: center;
   fill: #F3E8E5;
-  opacity: 0.4;
+  opacity: 0.6;
   top: -60% !important;
   width: 130%;
   left: 0;
@@ -480,13 +483,13 @@ article h2 {
 }
 
 @media screen and (max-width: 780px) /* phablet? */ {
-  h1 {
+  .name, h1 {
     font-size: 5em;
   }
   article h1, h2 {
     font-size: 3em;
     margin-bottom: 0.5em;
-    text-align: center;
+    text-align: left;
   }
   #intro {
     grid-template-columns: 20% 20% 10% 45% 5%;
@@ -515,22 +518,20 @@ article h2 {
     -webkit-margin-after: 1em;
   }
   h1,h2,h3,h4 {
-    font-weight: 900;
+    font-weight: 700;
   }
-
   h1,h2,h3 {
     text-align: left!important;
   }
-  h1 {
+  .name {
     font-size: 4em;
     margin-left: -4px;
   }
   article h1 {
-    font-size: 2.2em;
+    font-size: 1.8em;
   }
   article h2, h2 {
-    font-size: 2em;
-    margin-left: -2px;
+    font-size: 1.5em;
   }
   #intro {
     grid-template-columns: 100%;
@@ -576,6 +577,10 @@ article h2 {
     position: relative;
     padding: 10px 14px;
     margin: 0em 0 1em 0;
+  }
+  .header-head {
+    width: 2.8em;
+    height: 2.8em;
   }
   .morph-fill {
     margin-top: -90px;
