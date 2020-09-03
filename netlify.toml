@@ -2,3 +2,8 @@
   from = "/up-next/*"
   to = "https://ellen.li/up-next/*"
   status = 200
+
+[[redirects]]
+  from = "/80-saint-patrick/*"
+  to = "https://www.notion.so/80-Saint-Patrick-Street-1b6320199472403dad337c011a63b217"
+  status = 200
